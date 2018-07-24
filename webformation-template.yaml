@@ -84,7 +84,7 @@ Resources:
                   Type: A
                   AliasTarget:
                       HostedZoneId: Z2FDTNDATAQYW2
-            DNSName: !GetAtt CDNDistribution.DomainName
+                      DNSName: !GetAtt CDNDistribution.DomainName
 Outputs:
     FQDNWebsite:
         Description: The FQDN of the deployed website
