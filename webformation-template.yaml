@@ -80,7 +80,7 @@ Resources:
         Properties: 
             HostedZoneName: !Join ['', [!Ref DomainName, .]]
             RecordSets:
-                - Name: !Ref DomainName
+                - Name: !Ref HostedZoneName
                   Type: A
                   AliasTarget:
                       HostedZoneId: Z2FDTNDATAQYW2
