@@ -64,7 +64,7 @@ Resources:
                         Cookies:
                             Forward: none
                     ViewerProtocolPolicy: redirect-to-https
-                PriceClass: PriceClass_All
+                PriceClass: PriceClass_100
                 ViewerCertificate:
                     AcmCertificateArn: !Ref CertificateArn
                     SslSupportMethod: sni-only
